@@ -12,13 +12,15 @@ This project contains a Python pipeline for automatically segmenting World War I
 
 ## Installation
 
-1. **Create and activate a virtual environment**
+1. **Clone the repository and navigate to the root of the repository**
+
+2. **Create and activate a virtual environment**
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-2. **Install relevant packages**
+3. **Install relevant packages**
 ```bash
 pip install .
 ```
