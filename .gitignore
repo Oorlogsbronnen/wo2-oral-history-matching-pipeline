@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+output/*
+!output/.gitkeep
+interview_transcripts/*
+!interview_transcripts/.gitkeep
+build/*

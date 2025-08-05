@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wo2_oralhistory_matching"
+version = "0.1.0"
+description = "WO2 Oral History Matching Pipeline"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Daan Raven", email = "daan.raven@wo2net.nl" }
+]
+
+dependencies = [
+    "numpy",
+    "torch",
+    "openai",
+    "transformers<4.55.0",
+    "rdflib",
+    "platformdirs",
+    "scikit-learn",
+    "tiktoken",
+    "ftfy",
+    "python-dotenv",
+    "tqdm"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

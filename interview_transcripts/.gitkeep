@@ -1,0 +1,3 @@
+# This file exists so the 'interview_transcripts' folder is tracked by Git.
+# Place your .vtt transcript files in this folder.
+# All actual transcripts are ignored via .gitignore.
